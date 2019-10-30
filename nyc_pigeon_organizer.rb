@@ -5,6 +5,7 @@ def nyc_pigeon_organizer(pigeon_data)
       names.each do |name|
         if hash[name] == nil 
           hash[name] = {}
+        end
         if hash[name][color_gender_lives] == nil
           hash[name][color_gender_lives] = []
         end

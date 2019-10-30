@@ -10,4 +10,6 @@ def nyc_pigeon_organizer(pigeon_data)
         end
         hash[name][color_gender_lives].push(stats.to_s)
       end
+    end
+  end
 end
